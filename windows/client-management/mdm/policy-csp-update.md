@@ -2917,7 +2917,7 @@ The following list shows the supported values:
 Since this policy is not blocked, you will not get a failure message when you use it to configure a Windows 10 Mobile device. However, the policy will not take effect.
 
 
-Added in Windows 10, version 1607. Allows IT Admins to pause Feature Updates for up to 60 days.
+Added in Windows 10, version 1607 to allow admins to pause Feature Updates. Please note, rather than utilizing this policy, for those running Windows 10 version 1709 or above, we recommend utilizing the "Update/PauseFeatureUpdatesStartTime" policy. 
 
 <!--/Description-->
 <!--ADMXMapped-->
@@ -2986,7 +2986,7 @@ The following list shows the supported values:
 <!--Description-->
 Added in Windows 10, version 1703. Specifies the date and time when the IT admin wants to start pausing the Feature Updates.
 
-Value type is string (yyyy-mm-dd, ex. 2018-10-28). Supported operations are Add, Get, Delete, and Replace.
+Value type is string (yyyy-mm-dd, ex. 2018-10-28). Supported operations are Add, Get, Delete, and Replace. When this policy is set, updates are paused for 35 days from the specified pause start time. This policy can be reset to continuously pause for as long as is necessary.
 
 <!--/Description-->
 <!--ADMXMapped-->
@@ -3046,7 +3046,7 @@ ADMX Info:
 
 <!--/Scope-->
 <!--Description-->
-Added in Windows 10, version 1607. Allows IT Admins to pause Quality Updates.
+Added in Windows 10, version 1607 to allow admins to pause Quality Updates. Please note, rather than utilizing this policy, for those running Windows 10 version 1709 or above, we recommend utilizing the "Update/PauseFeatureUpdatesStartTime" policy. 
 
 <!--/Description-->
 <!--ADMXMapped-->
